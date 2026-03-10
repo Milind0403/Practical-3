@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML5 Webpage</title>
+</head>
+
+<body>
+
+    <!-- Marquee -->
+    <marquee behavior="scroll" direction="left">
+        Welcome to My Basic HTML5 Webpage
+    </marquee>
+
+    <!-- Heading -->
+    <h1 id="top">My First Webpage</h1>
+
+    <!-- Text Formatting -->
+    <h2>Text Formatting Examples</h2>
+    <p>This is <b>bold</b> text.</p>
+    <p>This is <i>italic</i> text.</p>
+    <p>This is <u>underlined</u> text.</p>
+    <p>This is <strong>important</strong> text.</p>
+    <p>This is <em>emphasized</em> text.</p>
+    <p>This is <mark>highlighted</mark> text.</p>
+
+    <!-- Unordered List -->
+    <h2>Unordered List (Hobbies)</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Playing Games</li>
+        <li>Traveling</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Ordered List (Steps to Make Tea)</h2>
+    <ol>
+        <li>Boil water</li>
+        <li>Add tea leaves</li>
+        <li>Add milk and sugar</li>
+        <li>Serve hot</li>
+    </ol>
+
+    <!-- Description List -->
+    <h2>Description List (Web Technologies)</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Used to create webpage structure.</dd>
+
+        <dt>CSS</dt>
+        <dd>Used for styling webpages.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Used to add interactivity.</dd>
+    </dl>
+
+    <!-- Image -->
+    <h2>Image Example</h2>
+    <img src="https://via.placeholder.com/300"
+         alt="Sample Image"
+         width="300" height="200">
+
+    <!-- Hyperlinks -->
+    <h2>Hyperlink Examples</h2>
+
+    <!-- Internal Link -->
+    <p>
+        <a href="#top">Go to Top of Page</a>
+    </p>
+
+    <!-- External Link -->
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            Visit Google
+        </a>
+    </p>
+
+    <!-- Email Link -->
+    <p>
+        <a href="mailto:example@email.com">
+            Send Email
+        </a>
+    </p>
+
+</body>
+</html>
